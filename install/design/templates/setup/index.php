@@ -14,7 +14,8 @@
     <p class="muted"><?php echo $this->t('installation_instructions'); ?></p>
 
     <?php if (!empty($_tpl_vars['show_requirements_section'])): ?>
-        <form name="setup_step_form" method="post" action="index.php" class="form-horizontal cm-ajax cm-comet">
+        <form name="setup_step_form" method="post" action="index.php" class="form-horizontal"> 
+        <!-- form name="setup_step_form" method="post" action="index.php" class="form-horizontal cm-ajax cm-comet" -->
 
         <h3><?php echo $this->t('checking_requirements'); ?></h3>
         <?php
