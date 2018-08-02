@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>mobile_app</id>
+    <version>1.0</version>
+    <priority>1500</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    <compatibility>
+        <dependencies>storefront_rest_api</dependencies>
+    </compatibility>
+    <settings layout="separate">
+        <sections>
+            <section id="general" edition_type="ROOT">
+                <items>
+                    <item id="fcm_api_key">
+                        <type>text</type>
+                        <default_value/>
+                    </item>
+                </items>
+            </section>
+            <section id="service" edition_type="ROOT">
+                <items>
+                    <item id="config">
+                        <type>template</type>
+                        <default_value>config.tpl</default_value>
+                    </item>
+                    <item id="config_data">
+                        <type>hidden</type>
+                        <default_value><![CDATA[{"app_appearance":{"colors":{"colors_navigation":{"statusBarColor":"#c1c1c1","navBarBackgroundColor":"#FAFAFA","navBarButtonColor":"#989898","navBarTextColor":"#242424","navBarRightButtonColor":"#FF6008","drawerBgColor":"#fff"},"colors_main":{"screenBackgroundColor":"#fff","contentOverlayColor":"rgba(0, 0, 0, 0.70)","primaryColor":"#FF6008","primaryColorText":"#fff","secondaryColor":"#47C9AF","secondaryColorText":"#fff"},"colors_other":{"successColor":"#7DCFB6","infoColor":"#FCEADE","dangerColor":"#D9534F","darkColor":"#242424","grayColor":"#EEEEEE","lightColor":"#242424"}},"sizes":{"navBarButtonFontSize":"1em"}},"app_settings":{"images":{"appIcon":"","splashScreen":""},"utility":{"shopName":""}}}]]></default_value>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+    <functions>
+        <item for="install">fn_mobile_app_install_layout</item>
+        <item for="uninstall">fn_mobile_app_uninstall_layout</item>
+    </functions>
+    <queries>
+        <item for="install">
+            DROP TABLE IF EXISTS ?:mobile_app_notification_subscriptions;
+        </item>
+        <item for="install">
+            CREATE TABLE ?:mobile_app_notification_subscriptions (
+                subscription_id int(11) unsigned NOT NULL AUTO_INCREMENT,
+                user_id mediumint(8) unsigned NOT NULL DEFAULT 0,
+                device_id varchar(256) NOT NULL DEFAULT '',
+                platform varchar(32) NOT NULL DEFAULT '',
+                token varchar(256) NOT NULL DEFAULT '',
+                locale varchar(10) NOT NULL DEFAULT '',
+                PRIMARY KEY (subscription_id),
+                UNIQUE KEY token (token),
+                UNIQUE KEY device (platform, device_id),
+                KEY user_id (user_id)
+            ) Engine=MyISAM DEFAULT CHARSET UTF8;
+        </item>
+        <item for="uninstall">
+            DROP TABLE IF EXISTS ?:mobile_app_notification_subscriptions;
+        </item>
+    </queries>
+</addon>

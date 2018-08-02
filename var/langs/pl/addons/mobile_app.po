@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Polish\n"
+"Language: pl_PL\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: pl\n"
+"X-Crowdin-File: /release-4.8.1/addons/mobile_app.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2018-07-05 13:12\n"
+
+msgctxt "Addons::name::mobile_app"
+msgid "Mobile application"
+msgstr "Aplikacja mobilna"
+
+msgctxt "Addons::description::mobile_app"
+msgid "Mobile application"
+msgstr "Aplikacja mobilna"
+
+msgctxt "Languages::mobile_app.settings.access_key"
+msgid "Access key:"
+msgstr "Klucz dostępu:"
+
+msgctxt "Languages::appearance_title"
+msgid "Mockups"
+msgstr "Makiety"
+
+msgctxt "Languages::statusbarcolor"
+msgid "Status bar (Android)"
+msgstr "Status bar (Android)"
+
+msgctxt "Languages::navbarbackgroundcolor"
+msgid "Navbar background"
+msgstr "Tło paska nawigacyjnego"
+
+msgctxt "Languages::navbarbuttoncolor"
+msgid "Navbar Buttons"
+msgstr "Przyciski paska nawigacyjnego"
+
+msgctxt "Languages::navbartextcolor"
+msgid "Navbar Text"
+msgstr "Tekst paska nawigacyjnego"
+
+msgctxt "Languages::navbarrightbuttoncolor"
+msgid "Navbar Right Button"
+msgstr "Przycisk nawigacyjny w prawo"
+
+msgctxt "Languages::screenbackgroundcolor"
+msgid "Screen Background"
+msgstr "Tło ekranu"
+
+msgctxt "Languages::contentoverlaycolor"
+msgid "Content Overlay"
+msgstr "Nakładki zawartości"
+
+msgctxt "Languages::drawerbgcolor"
+msgid "Drawer"
+msgstr "Szuflada"
+
+msgctxt "Languages::primarycolor"
+msgid "Primary"
+msgstr "Podstawowy"
+
+msgctxt "Languages::primarycolortext"
+msgid "Primary Text"
+msgstr "Tekst podstawowy"
+
+msgctxt "Languages::secondarycolor"
+msgid "Secondary"
+msgstr "Drugiego poziomu"
+
+msgctxt "Languages::secondarycolortext"
+msgid "Secondary Text"
+msgstr "Tekst drugiego poziomu"
+
+msgctxt "Languages::successcolor"
+msgid "Success"
+msgstr "Sukces"
+
+msgctxt "Languages::infocolor"
+msgid "Info"
+msgstr "Informacje"
+
+msgctxt "Languages::dangercolor"
+msgid "Danger"
+msgstr "Niebezpieczeństwo"
+
+msgctxt "Languages::darkcolor"
+msgid "Dark"
+msgstr "Ciemny"
+
+msgctxt "Languages::graycolor"
+msgid "Gray"
+msgstr "Szary"
+
+msgctxt "Languages::lightcolor"
+msgid "Light"
+msgstr "Jasny"
+
+msgctxt "Languages::nav_colors"
+msgid "Navigation Colors"
+msgstr "Kolory nawigacji"
+
+msgctxt "Languages::main_colors"
+msgid "Main Colors"
+msgstr "Główne kolory"
+
+msgctxt "Languages::other_colors"
+msgid "Other Colors"
+msgstr "Inne kolory"
+
+msgctxt "Languages::app_params"
+msgid "App Config"
+msgstr "Konfiguracja aplikacji"
+
+msgctxt "Languages::bundleid"
+msgid "Bundle Id"
+msgstr "Identyfikator pakietu"
+
+msgctxt "Languages::apikey"
+msgid "API Key"
+msgstr "Klucz API"
+
+msgctxt "Languages::baseurl"
+msgid "Base URL"
+msgstr "Podstawowy adres URL"
+
+msgctxt "Languages::siteurl"
+msgid "Site URL"
+msgstr "Adres URL witryny"
+
+msgctxt "Languages::shopname"
+msgid "Shop Name"
+msgstr "Nazwa sklepu"
+
+msgctxt "Languages::layoutid"
+msgid "Layout Id"
+msgstr "Identyfikator układu"
+
+msgctxt "Languages::images_params"
+msgid "Images"
+msgstr "Zdjęcia"
+
+msgctxt "Languages::mobile_app.m_app_icon"
+msgid "App Icon"
+msgstr "Ikona aplikacji"
+
+msgctxt "Languages::tt_mobile_app.m_app_icon"
+msgid "Recommended image size 192x192"
+msgstr "Zalecany rozmiar obrazu 192 x 192"
+
+msgctxt "Languages::mobile_app.m_app_splash_portrait"
+msgid "Splash Screen (portrait)"
+msgstr "Ekran powitalny (portret)"
+
+msgctxt "Languages::tt_mobile_app.m_app_splash_portrait"
+msgid "Recommended image size 1536x2208"
+msgstr "Zalecany rozmiar obrazu 1536 x 2208"
+
+msgctxt "Languages::mobile_app.m_app_splash_landscape"
+msgid "Splash Screen (landscape)"
+msgstr "Ekran powitalny (landscape)"
+
+msgctxt "Languages::tt_mobile_app.m_app_splash_landscape"
+msgid "Recommended image size 2208x1536"
+msgstr "Zalecany rozmiar obrazu 2208 x 1536"
+
+msgctxt "Languages::mobile_app.m_app_store_logo"
+msgid "Sidebar logo"
+msgstr "Logo paska bocznego"
+
+msgctxt "Languages::mobile_app.download_config"
+msgid "Download config"
+msgstr "Pobierz configurację"
+
+msgctxt "Languages::mobile_app.preparing_config"
+msgid "Preparing config"
+msgstr "Przygotowanie konfiguracji"
+
+msgctxt "Languages::mobile_app.preparing_android_images"
+msgid "Preparing Android images"
+msgstr "Przygotowanie obrazów systemu Android"
+
+msgctxt "Languages::mobile_app.preparing_android_images"
+msgid "Preparing Android images"
+msgstr "Przygotowanie obrazów systemu Android"
+
+msgctxt "Languages::mobile_app.preparing_ios_icons"
+msgid "Preparing iOS icons"
+msgstr "Przygotowanie ikon systemu iOS"
+
+msgctxt "Languages::mobile_app.preparing_ios_images"
+msgid "Preparing iOS images"
+msgstr "Przygotowanie obrazów systemu iOS"
+
+msgctxt "Languages::mobile_app.preparing_archive"
+msgid "Preparing archive"
+msgstr "Przygotowywanie archiwum"
+
+msgctxt "SettingsSections::mobile_app::general"
+msgid "General"
+msgstr "Ogólne"
+
+msgctxt "SettingsSections::mobile_app::service"
+msgid "Configure"
+msgstr "Konfiguruj"
+
+msgctxt "SettingsOptions::mobile_app::fcm_api_key"
+msgid "API key for push notifications"
+msgstr "Klucz API dla powiadomień push"
+
+msgctxt "SettingsTooltips::mobile_app::fcm_api_key"
+msgid "Obtain the Cloud Messaging <b>Legacy server key</b> from the <a href=\"https://console.firebase.google.com\" target=\"_blank\">Firebase console</a>"
+msgstr "Pobierz <b>klucz Cloud Messaging Legacy</b> z <a href=\"https://console.firebase.google.com\" target=\"_blank\">konsoli Firebase</a>"
+

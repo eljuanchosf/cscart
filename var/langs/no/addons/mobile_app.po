@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Norwegian\n"
+"Language: no_NO\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: no\n"
+"X-Crowdin-File: /release-4.8.1/addons/mobile_app.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2018-07-05 13:11\n"
+
+msgctxt "Addons::name::mobile_app"
+msgid "Mobile application"
+msgstr "Mobil applikasjon"
+
+msgctxt "Addons::description::mobile_app"
+msgid "Mobile application"
+msgstr "Mobil applikasjon"
+
+msgctxt "Languages::mobile_app.settings.access_key"
+msgid "Access key:"
+msgstr "Tilgangsnøkkel:"
+
+msgctxt "Languages::appearance_title"
+msgid "Mockups"
+msgstr "Mockups"
+
+msgctxt "Languages::statusbarcolor"
+msgid "Status bar (Android)"
+msgstr "Statusbar (Android)"
+
+msgctxt "Languages::navbarbackgroundcolor"
+msgid "Navbar background"
+msgstr "Navbar bakgrunn"
+
+msgctxt "Languages::navbarbuttoncolor"
+msgid "Navbar Buttons"
+msgstr "Navbar knapper"
+
+msgctxt "Languages::navbartextcolor"
+msgid "Navbar Text"
+msgstr "Navbar tekst"
+
+msgctxt "Languages::navbarrightbuttoncolor"
+msgid "Navbar Right Button"
+msgstr "Navbar høyre knapp"
+
+msgctxt "Languages::screenbackgroundcolor"
+msgid "Screen Background"
+msgstr "Skjermbakgrunn"
+
+msgctxt "Languages::contentoverlaycolor"
+msgid "Content Overlay"
+msgstr "Innholdsoverlegg"
+
+msgctxt "Languages::drawerbgcolor"
+msgid "Drawer"
+msgstr "Skuff"
+
+msgctxt "Languages::primarycolor"
+msgid "Primary"
+msgstr "Primær"
+
+msgctxt "Languages::primarycolortext"
+msgid "Primary Text"
+msgstr "Primær tekst"
+
+msgctxt "Languages::secondarycolor"
+msgid "Secondary"
+msgstr "Sekundær"
+
+msgctxt "Languages::secondarycolortext"
+msgid "Secondary Text"
+msgstr "Sekundær tekst"
+
+msgctxt "Languages::successcolor"
+msgid "Success"
+msgstr "Vellykket"
+
+msgctxt "Languages::infocolor"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "Languages::dangercolor"
+msgid "Danger"
+msgstr "Danger"
+
+msgctxt "Languages::darkcolor"
+msgid "Dark"
+msgstr "Mørk"
+
+msgctxt "Languages::graycolor"
+msgid "Gray"
+msgstr "Grå"
+
+msgctxt "Languages::lightcolor"
+msgid "Light"
+msgstr "Lys"
+
+msgctxt "Languages::nav_colors"
+msgid "Navigation Colors"
+msgstr "Navigasjonsfarger"
+
+msgctxt "Languages::main_colors"
+msgid "Main Colors"
+msgstr "Hovedfarger"
+
+msgctxt "Languages::other_colors"
+msgid "Other Colors"
+msgstr "Andre farger"
+
+msgctxt "Languages::app_params"
+msgid "App Config"
+msgstr "App Config"
+
+msgctxt "Languages::bundleid"
+msgid "Bundle Id"
+msgstr "Bundle Id"
+
+msgctxt "Languages::apikey"
+msgid "API Key"
+msgstr "API nøkkel"
+
+msgctxt "Languages::baseurl"
+msgid "Base URL"
+msgstr "Base URL"
+
+msgctxt "Languages::siteurl"
+msgid "Site URL"
+msgstr "Side URL"
+
+msgctxt "Languages::shopname"
+msgid "Shop Name"
+msgstr "Butikknavn"
+
+msgctxt "Languages::layoutid"
+msgid "Layout Id"
+msgstr "Layout Id"
+
+msgctxt "Languages::images_params"
+msgid "Images"
+msgstr "Bilder"
+
+msgctxt "Languages::mobile_app.m_app_icon"
+msgid "App Icon"
+msgstr "App ikon"
+
+msgctxt "Languages::tt_mobile_app.m_app_icon"
+msgid "Recommended image size 192x192"
+msgstr "Anbefalt bildestørrelse 192x192"
+
+msgctxt "Languages::mobile_app.m_app_splash_portrait"
+msgid "Splash Screen (portrait)"
+msgstr "Splash Screen (portrett)"
+
+msgctxt "Languages::tt_mobile_app.m_app_splash_portrait"
+msgid "Recommended image size 1536x2208"
+msgstr "Anbefalt bildeformat 1536x2208"
+
+msgctxt "Languages::mobile_app.m_app_splash_landscape"
+msgid "Splash Screen (landscape)"
+msgstr "Splash Screen (landskap)"
+
+msgctxt "Languages::tt_mobile_app.m_app_splash_landscape"
+msgid "Recommended image size 2208x1536"
+msgstr "Anbefalt bildestørrelse 2208x1536"
+
+msgctxt "Languages::mobile_app.m_app_store_logo"
+msgid "Sidebar logo"
+msgstr "Sidebar logo"
+
+msgctxt "Languages::mobile_app.download_config"
+msgid "Download config"
+msgstr "Last ned config"
+
+msgctxt "Languages::mobile_app.preparing_config"
+msgid "Preparing config"
+msgstr "Forbereder config"
+
+msgctxt "Languages::mobile_app.preparing_android_images"
+msgid "Preparing Android images"
+msgstr "Forbereder Android bilder"
+
+msgctxt "Languages::mobile_app.preparing_android_images"
+msgid "Preparing Android images"
+msgstr "Forbereder Android bilder"
+
+msgctxt "Languages::mobile_app.preparing_ios_icons"
+msgid "Preparing iOS icons"
+msgstr "Forbereder iOS ikoner"
+
+msgctxt "Languages::mobile_app.preparing_ios_images"
+msgid "Preparing iOS images"
+msgstr "Forbereder iOS bilder"
+
+msgctxt "Languages::mobile_app.preparing_archive"
+msgid "Preparing archive"
+msgstr "Forbereder arkiv"
+
+msgctxt "SettingsSections::mobile_app::general"
+msgid "General"
+msgstr "Generelt"
+
+msgctxt "SettingsSections::mobile_app::service"
+msgid "Configure"
+msgstr "Konfigurer"
+
+msgctxt "SettingsOptions::mobile_app::fcm_api_key"
+msgid "API key for push notifications"
+msgstr "API-nøkkel for push-varsler"
+
+msgctxt "SettingsTooltips::mobile_app::fcm_api_key"
+msgid "Obtain the Cloud Messaging <b>Legacy server key</b> from the <a href=\"https://console.firebase.google.com\" target=\"_blank\">Firebase console</a>"
+msgstr "Obtain the Cloud Messaging <b>Legacy server key</b> from the <a href=\"https://console.firebase.google.com\" target=\"_blank\">Firebase console</a>"
+

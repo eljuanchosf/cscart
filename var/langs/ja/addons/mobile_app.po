@@ -1,0 +1,218 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cs-cart-latest\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: Japanese\n"
+"Language: ja_JP\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: cs-cart-latest\n"
+"X-Crowdin-Language: ja\n"
+"X-Crowdin-File: /release-4.8.1/addons/mobile_app.po\n"
+"Last-Translator: cscart <translations@cs-cart.com>\n"
+"PO-Revision-Date: 2018-07-05 13:09\n"
+
+msgctxt "Addons::name::mobile_app"
+msgid "Mobile application"
+msgstr ""
+
+msgctxt "Addons::description::mobile_app"
+msgid "Mobile application"
+msgstr ""
+
+msgctxt "Languages::mobile_app.settings.access_key"
+msgid "Access key:"
+msgstr ""
+
+msgctxt "Languages::appearance_title"
+msgid "Mockups"
+msgstr ""
+
+msgctxt "Languages::statusbarcolor"
+msgid "Status bar (Android)"
+msgstr ""
+
+msgctxt "Languages::navbarbackgroundcolor"
+msgid "Navbar background"
+msgstr ""
+
+msgctxt "Languages::navbarbuttoncolor"
+msgid "Navbar Buttons"
+msgstr ""
+
+msgctxt "Languages::navbartextcolor"
+msgid "Navbar Text"
+msgstr ""
+
+msgctxt "Languages::navbarrightbuttoncolor"
+msgid "Navbar Right Button"
+msgstr ""
+
+msgctxt "Languages::screenbackgroundcolor"
+msgid "Screen Background"
+msgstr ""
+
+msgctxt "Languages::contentoverlaycolor"
+msgid "Content Overlay"
+msgstr ""
+
+msgctxt "Languages::drawerbgcolor"
+msgid "Drawer"
+msgstr ""
+
+msgctxt "Languages::primarycolor"
+msgid "Primary"
+msgstr ""
+
+msgctxt "Languages::primarycolortext"
+msgid "Primary Text"
+msgstr ""
+
+msgctxt "Languages::secondarycolor"
+msgid "Secondary"
+msgstr ""
+
+msgctxt "Languages::secondarycolortext"
+msgid "Secondary Text"
+msgstr ""
+
+msgctxt "Languages::successcolor"
+msgid "Success"
+msgstr ""
+
+msgctxt "Languages::infocolor"
+msgid "Info"
+msgstr ""
+
+msgctxt "Languages::dangercolor"
+msgid "Danger"
+msgstr ""
+
+msgctxt "Languages::darkcolor"
+msgid "Dark"
+msgstr ""
+
+msgctxt "Languages::graycolor"
+msgid "Gray"
+msgstr ""
+
+msgctxt "Languages::lightcolor"
+msgid "Light"
+msgstr ""
+
+msgctxt "Languages::nav_colors"
+msgid "Navigation Colors"
+msgstr ""
+
+msgctxt "Languages::main_colors"
+msgid "Main Colors"
+msgstr ""
+
+msgctxt "Languages::other_colors"
+msgid "Other Colors"
+msgstr ""
+
+msgctxt "Languages::app_params"
+msgid "App Config"
+msgstr ""
+
+msgctxt "Languages::bundleid"
+msgid "Bundle Id"
+msgstr ""
+
+msgctxt "Languages::apikey"
+msgid "API Key"
+msgstr ""
+
+msgctxt "Languages::baseurl"
+msgid "Base URL"
+msgstr ""
+
+msgctxt "Languages::siteurl"
+msgid "Site URL"
+msgstr ""
+
+msgctxt "Languages::shopname"
+msgid "Shop Name"
+msgstr ""
+
+msgctxt "Languages::layoutid"
+msgid "Layout Id"
+msgstr ""
+
+msgctxt "Languages::images_params"
+msgid "Images"
+msgstr ""
+
+msgctxt "Languages::mobile_app.m_app_icon"
+msgid "App Icon"
+msgstr ""
+
+msgctxt "Languages::tt_mobile_app.m_app_icon"
+msgid "Recommended image size 192x192"
+msgstr ""
+
+msgctxt "Languages::mobile_app.m_app_splash_portrait"
+msgid "Splash Screen (portrait)"
+msgstr ""
+
+msgctxt "Languages::tt_mobile_app.m_app_splash_portrait"
+msgid "Recommended image size 1536x2208"
+msgstr ""
+
+msgctxt "Languages::mobile_app.m_app_splash_landscape"
+msgid "Splash Screen (landscape)"
+msgstr ""
+
+msgctxt "Languages::tt_mobile_app.m_app_splash_landscape"
+msgid "Recommended image size 2208x1536"
+msgstr ""
+
+msgctxt "Languages::mobile_app.m_app_store_logo"
+msgid "Sidebar logo"
+msgstr ""
+
+msgctxt "Languages::mobile_app.download_config"
+msgid "Download config"
+msgstr ""
+
+msgctxt "Languages::mobile_app.preparing_config"
+msgid "Preparing config"
+msgstr ""
+
+msgctxt "Languages::mobile_app.preparing_android_images"
+msgid "Preparing Android images"
+msgstr ""
+
+msgctxt "Languages::mobile_app.preparing_android_images"
+msgid "Preparing Android images"
+msgstr ""
+
+msgctxt "Languages::mobile_app.preparing_ios_icons"
+msgid "Preparing iOS icons"
+msgstr ""
+
+msgctxt "Languages::mobile_app.preparing_ios_images"
+msgid "Preparing iOS images"
+msgstr ""
+
+msgctxt "Languages::mobile_app.preparing_archive"
+msgid "Preparing archive"
+msgstr ""
+
+msgctxt "SettingsSections::mobile_app::general"
+msgid "General"
+msgstr ""
+
+msgctxt "SettingsSections::mobile_app::service"
+msgid "Configure"
+msgstr ""
+
+msgctxt "SettingsOptions::mobile_app::fcm_api_key"
+msgid "API key for push notifications"
+msgstr ""
+
+msgctxt "SettingsTooltips::mobile_app::fcm_api_key"
+msgid "Obtain the Cloud Messaging <b>Legacy server key</b> from the <a href=\"https://console.firebase.google.com\" target=\"_blank\">Firebase console</a>"
+msgstr ""
+

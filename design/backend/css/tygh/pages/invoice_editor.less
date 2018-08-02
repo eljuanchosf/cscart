@@ -1,0 +1,47 @@
+// Invoice Editor
+
+#sidebar_variables {
+    .nav-opener {
+        font-size: 10px;
+        color: #ababab;
+    }
+    .nav {
+        padding: 5px 0px 10px 10px;
+    }
+}
+.ie-redactor {
+    .redactor-box {
+        max-width: 900px;
+    }
+}
+
+// Unable to fit email preview by email-size (on PC and big tablets)
+@media (min-width: 768px) {
+    div[aria-describedby="preview_dialog"] {
+        height: auto !important;
+        width: auto !important;
+        #preview_dialog {
+            height: auto !important;
+            .object-container {
+                height: auto !important;
+            }
+            table {
+                border-collapse: separate;
+            }
+        }
+    }
+}
+
+.document-editor__list {
+    top: 140px;
+    margin: 0px;
+    padding-left: 5px;
+}
+
+.document-editor__wrapper {
+    overflow: auto;
+    position: absolute;
+    width: 960px;
+    top: 260px;
+    bottom: 9px;
+}
