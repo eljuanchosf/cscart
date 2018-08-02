@@ -15,11 +15,6 @@
 use Installer\App;
 
 include 'app/Installer/App.php';
-/* Remove the next two lines for production */*
-error_reporting(E_ALL);
-ini_set('display_errors', 'On');
-
-
 App::instance()->init($_REQUEST);
 
 if (defined('CONSOLE') && file_exists('config.php')) {
